@@ -1,0 +1,41 @@
+#lovinbot-chatbot-bubble-button {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #155EEF;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    cursor: pointer;
+    z-index: 2147483647;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #lovinbot-chatbot-bubble-button:hover {
+    transform: scale(1.1);
+  }
+  
+  #lovinbot-chatbot-bubble-window {
+    border: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(150, 150, 150, 0.2) 0px 10px 30px 0px, rgba(150, 150, 150, 0.2) 0px 0px 0px 1px;
+    bottom: 80px;
+    right: 16px;
+    width: 385px;
+    max-width: calc(1920px - 32px);
+    height: 60vh;
+    max-height: calc(100vh - 96px);
+    border-radius: 12px;
+    display: flex;
+    z-index: 2147483647;
+    overflow: hidden;
+    background-color: #F3F4F6;
+  }
+.test {
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+}
