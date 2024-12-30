@@ -7,22 +7,19 @@
   <title>Document</title>
 </head>
  <body>  
-  
+  <iframe id="lovinbot-chatbot-iframe" src="http://localhost:3005/chatbotEmbeded" style="width: 250px; height: 250px; border: none; position: fixed; bottom: 20px; right: 20px; z-index: 2147483647;"></iframe>
   <script>
     window.lovinbotChatbotConfig = 
     {
-      token: 'gByWTUpg9VONuLs1',
+      token: 'dL9oC2FBXUF81ohC',
       baseUrl: 'http://localhost:3005', 
       isDev: true,
-      
+      imageToggle: 'https://lovinbot-development.b-cdn.net/upload_files/d5408b4d-8986-470f-8546-959b38db443d/5cb8f6ab-df9b-4452-bf49-3636b98b7aa3.png', 
+      popOver: 'Xin chào mọi người mình là Minh Quân, tôi là chatbot hỗ trợ được tạo ra bởi Minh Quân 123232', 
+      colorBg: '#F97316',
     }
   </script>
-  <script 
-    src="https://cdn.jsdelivr.net/gh/lekimminhquan/chatbot@1.1.3/chatbot.min.js" 
-    id="gByWTUpg9VONuLs1" 
-    defer
-  > 
-  </script>
-      
+   <script src="./chatbot.min.js" id="dL9oC2FBXUF81ohC" defer></script>
+        
  </body>
 </html>
